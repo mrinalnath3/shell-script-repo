@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This line is a comment. This script will allow to installation of applications based on the OS detection using if, elif, and else statements as a universal script.
+#This line is a comment. This script will allow the installation of applications based on the OS detection using if, elif, and else statements as a universal script.
 
 echo “This script to install git on a Linux distribution”
 
@@ -14,13 +14,13 @@ if [ “$OS” == “ubuntu” ]
 then
 echo “This is ubuntu operating system, installing git…..”
 
-sudo apt install git -y
+sudo apt install httpd -y
 
 elif [ “$OS” == “centos” ]
 then
 
 echo “This is Centos OS, installing the git……..”
-yum install git -y
+yum install apache2 -y
 
 elif [ “$OS” == “rhel” ]
 then
