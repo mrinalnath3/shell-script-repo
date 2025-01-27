@@ -14,13 +14,13 @@ if [ "$OS" == "ubuntu" ]
 then
 echo "This is ubuntu operating system, installing git….."
 
-sudo apt install httpd -y
+sudo apt install apache2 -y
 
 elif [ "$OS" == "centos" ]
 then
 
 echo "his is Centos OS, installing the git…….."
-yum install apache2 -y
+yum install httpd -y
 
 elif [ "$OS" == "rhel" ]
 then
