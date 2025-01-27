@@ -19,7 +19,7 @@ sudo apt install apache2 -y
 elif [ "$OS" == "centos" ]
 then
 
-echo "his is Centos OS, installing the git…….."
+echo "This is Centos OS, installing the git…….."
 yum install httpd -y
 
 elif [ "$OS" == "rhel" ]
